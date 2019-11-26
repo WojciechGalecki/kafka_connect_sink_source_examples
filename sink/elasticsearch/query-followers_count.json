@@ -1,0 +1,9 @@
+{
+  "query":{
+    "range" : {
+      "user.followers_count" : {
+          "gt" : 1000
+      }
+		}
+  }
+}
